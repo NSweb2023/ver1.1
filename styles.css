@@ -20,6 +20,14 @@ img {
 
 }
 
+@media screen and (max-width: 800px) {
+
+    img{
+        max-width: 68%;
+        max-height: 100vh;
+    }
+}
+
 .block {
     display: block !important
 }
