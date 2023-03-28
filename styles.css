@@ -86,11 +86,11 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 0.40px;
-    font-size: 0.65rem;
-    line-height: 16px;
+    font-size: 0.8rem;
+    line-height: 18px;
     color: #353535;
     align-items: center;
-    max-width: 430px;
+    max-width: 440px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     padding: 0;
@@ -98,7 +98,7 @@ body {
 }
 
 .text,.information{
-    top: 140px;
+    top: 250px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.637);
     
@@ -184,10 +184,7 @@ p {
 
 }
 
-.text__item.contact { 
-    padding-bottom: 200px;
 
-}
 
 
 
