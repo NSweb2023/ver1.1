@@ -11,9 +11,33 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    font-size: 0.71rem;
+    line-height: 16.5px;
+    color: #353535;
+    align-items: center;
+    max-width: 430px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+
+}
+
+@media screen and (max-width: 800px) {
+    body{
+
+        max-width: 68%;
+        max-height: 100vh;
+    }
+}
+
 img {
 
-    max-width: 430px;
+    max-width: 430px;        
+    max-height: 100vh;
     position: relative;
     top: 115px;
     z-index: 99;
@@ -27,6 +51,8 @@ img {
         max-height: 100vh;
     }
 }
+
+
 
 .block {
     display: block !important
@@ -42,10 +68,9 @@ h1 {
     font-size: 100%;
     font-weight: 400;
     color: #353535;
+    
 
 }
-
-#text__item.name {margin-bottom: 10rem;}
 
 
 a {
@@ -68,7 +93,7 @@ h3 {
     margin: 0;
 }
 
-.text__title.top {margin-top:20px ;}
+.text__title.top {margin-top:10px ;}
 
 em {
     font-style: italic;
@@ -82,27 +107,15 @@ em {
 
 
 
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.40px;
-    font-size: 0.7rem;
-    line-height: 17px;
-    color: #353535;
-    align-items: center;
-    max-width: 440px;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    padding: 0;
 
-}
 
 .text,.information{
-    top: 250px;
+    top: 135px;
+    left:20px;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.637);
-    
-    
+
+
+
 }
 
 
@@ -124,7 +137,7 @@ summary:hover {
 details > summary {
     list-style: none;
     text-decoration-color: none;
-    padding-bottom: 0.5rem;
+  
   }
   details > summary::-webkit-details-marker {
     display: none;
@@ -139,12 +152,12 @@ p {
 
 
 .text__item {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 
 }
 
 .text__item.bio{
-    padding-bottom: 2rem
+    padding-bottom: 0rem
 }
 
 .text__texts p
@@ -188,13 +201,7 @@ p {
 
 
 
-@media screen and (max-width: 800px) {
-    body{
 
-        max-width: 68%;
-        max-height: 100vh;
-    }
-}
 
 
 
